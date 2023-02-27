@@ -1,0 +1,1559 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Homepage</title>
+    <!--fouts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!--Нормалізатор стилів-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- jquery for calendar -->
+    <link 
+      rel="stylesheet" 
+      href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+
+      
+    
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script type="module" crossorigin src="/goit-g7-my-copy-team-project/assets/main-d892d8a6.js"></script>
+    <link rel="modulepreload" crossorigin href="/goit-g7-my-copy-team-project/assets/buttonup-362421b2.js">
+    <link rel="modulepreload" crossorigin href="/goit-g7-my-copy-team-project/assets/modal-windows-37b9c303.js">
+    <link rel="modulepreload" crossorigin href="/goit-g7-my-copy-team-project/assets/sliders-ebd5b5d6.js">
+    <link rel="stylesheet" href="/goit-g7-my-copy-team-project/assets/buttonup-8e3cb4a9.css">
+  </head>
+  <body>
+    <!--header-->
+    <header>
+      
+
+
+<div class="header">
+  <div class="header-wrapper container">
+    <!-- логотип хедеру в контейнері -->
+    <div class="header-logo-wrapper-for-flex">
+      <div class="header-logo-wrapper">
+        <a class="header-logo" href="./index.html">MIMIH<span class="last-letter-o">O</span> </a>
+      </div>
+      <!-- навігація -->
+      <nav class="header-navigation">
+        <ul class="header-navigation-list">
+           <!-- ресторан -->
+          <li class="header-navigation-item">
+            <a href="./restaurant.html" class="header-navigation-link" lang="uk" > <span class="restaurant-word">Ресторан</span></a>
+          </li>
+          <!-- номер ресторану і свг-картинка -->
+          <li class="header-navigation-item">
+            <div class="wraper-icon-mob-tel" >
+              <a href="tel:0955559533" class=""> <span class="header-mob-number">095 555 95 33</span> 
+                  <svg class="mobile-phone-icon-first"  width="24" height="24">
+                    <use href="/goit-g7-my-copy-team-project/assets/icons-3d060f7a.svg#icon-phone"></use>
+                  </svg>
+              </a>
+            </div>
+          </li>
+        </ul>
+        <ul class="header-navigation-list">
+          <!-- готель  -->
+          <li class="header-navigation-item">
+            <a href="./hotel.html" class="header-navigation-link" lang="uk"> <span class="hotel-word" >Готель</span></a>
+          </li>
+           <!-- номер готелю і свг-картинка -->
+          <li class="header-navigation-item">
+            <div class="wraper-icon-mob-tel" >
+              <a href="tel:0668491089" class="header-navigation-tel"> <span class="header-mob-number">066 849 10 89</span> 
+                <svg class="mobile-phone-icon-second" width="24" height="24">
+                  <use href="/goit-g7-my-copy-team-project/assets/icons-3d060f7a.svg#icon-phone"></use>
+                </svg>
+               </a>
+            </div>
+           </li>
+        </ul>
+      </nav>
+    </div>
+    <!-- іконки для соціальних мереж -->
+    <div class="wrapper-for-social-icons">
+      <ul class="header-social-link">
+        <li class="header-social-item">
+          <!-- інстаграм -->
+          <a href="https://www.instagram.com/" target="_blank" >
+              <svg class="header-social-icon"  width="24" height="24">
+                <use href="/goit-g7-my-copy-team-project/assets/icons-3d060f7a.svg#icon-instagram"></use>
+              </svg>
+          </a>
+        </li>
+        <li class="header-social-item">
+          <!-- фейсбук -->
+          <a href="https://www.facebook.com/" target="_blank" >
+              <svg class="header-social-icon"  width="24" height="24">
+                <use href="/goit-g7-my-copy-team-project/assets/icons-3d060f7a.svg#icon-facebook"></use>
+              </svg>
+          </a>
+        </li>
+        <li class="header-social-item">
+          <!-- телеграм -->
+          <a href="https://web.telegram.org/k/" target="_blank" >
+            <svg class="header-social-icon"  width="24" height="24">
+              <use href="/goit-g7-my-copy-team-project/assets/icons-3d060f7a.svg#icon-telegram"></use>
+            </svg>
+          </a>
+         </li>
+      </ul>
+
+    </div>
+  </div>
+</div>
+  
+    </header>
+    <!--main-->
+    <main>
+        <button id="scrollToTopBtn" class="button-up">
+    M
+  </button>
+  <div class="arrow-up">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+      <!--hero-->
+      <section>
+        <div class="section hero">
+  <div class="container container-hero">
+    <address class="address">
+      <a class="link-map" href="https://goo.gl/maps/Grp7XXtRsGtsApyo6" rel="noreferrer nofollow noopener" lang="uk" > <svg class="icon-map">
+        <use href="/goit-g7-my-copy-team-project/assets/icons-3d060f7a.svg#icon-map" ></use>
+      </svg> Україна, м. Полтава, <br> вул. Маршала Бірюзова, 15</a>
+    </address>
+    <h1 class="hero-title loader">
+      <span>m</span><span>i</span><span>m</span><span>i</span><span>h</span><span class="spacing">o</span></h1>
+    <p class="hero-text" lang="uk" >Ресторанно-готельний комплекс</p>
+      <h2 class="hero-sub-title" lang="uk">смак життя 24/7</h2>
+      
+      <ul class="hero-btn">
+        <li><button class="button-transparent btn-reserve-table js-open-modal" data-modal="1"  type="button" lang="uk" >Забронювати столик</button></li>
+        <li><button class="button-transparent btn-reserve-room js-open-modal" data-modal="2" type="button" lang="uk" >Забронювати номер</button></li>
+      </ul>
+  </div>
+</div>
+
+      </section>
+      <!--restaurant-->
+      <section class="section-3-cream">
+        <div class="container-maks">
+  <div class="restaurant-first-box">
+    <div
+      data-aos="fade-right"
+      data-aos-offset="200"
+      data-aos-delay="50"
+      data-aos-duration="1000"
+      data-aos-once="true"
+    >
+      <h2>Amet minim mollit non</h2>
+      <h3>MIMIHO</h3>
+      <p>
+        Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+        sint. Velit officia consequat duis enim velit mollit. Exercitation
+        veniam consequat sunt nostrud amet.
+      </p>
+    </div>
+    <div
+      class="picture-width-animation"
+      data-aos="fade-left"
+      data-aos-offset="200"
+      data-aos-delay="50"
+      data-aos-duration="1000"
+      data-aos-once="true"
+    >
+      <picture>
+        <source
+          srcset="/goit-g7-my-copy-team-project/assets/restourant-main-244x322-928f4470.jpg 1x, /goit-g7-my-copy-team-project/assets/restourant-main-244x322@2x-bf08b868.jpg 2x"
+          media="(max-width:1023px)"
+          width="244"
+          height="322"
+        />
+
+        <source
+          srcset="/goit-g7-my-copy-team-project/assets/restourant-main-400x524-f72ed4f4.jpg 1x, /goit-g7-my-copy-team-project/assets/restourant-main-400x524@2x-8aabac68.jpg 2x"
+          media="(min-width:1024px) and (max-width:1279px)"
+          width="400"
+        />
+
+        <source
+          srcset="/goit-g7-my-copy-team-project/assets/restourant-main-460x574-07179902.jpg 1x, /goit-g7-my-copy-team-project/assets/restourant-main-460x574@2x-ffc8d489.jpg 2x"
+          media="(min-width:1280px)"
+          width="460"
+        />
+
+        <img
+          class="restaurant-img-first"
+          src="/goit-g7-my-copy-team-project/assets/restourant-main-460x574-07179902.jpg"
+          alt="restaurant"
+        />
+      </picture>
+    </div>
+  </div>
+  <div class="restaurant-second-box">
+    <picture
+      data-aos="fade-right"
+      data-aos-offset="200"
+      data-aos-delay="50"
+      data-aos-duration="1000"
+      data-aos-once="true"
+    >
+      <source
+        srcset="/goit-g7-my-copy-team-project/assets/restourant-hall-200x278-2fa7dde8.jpg 1x, /goit-g7-my-copy-team-project/assets/restourant-hall-200x278@2x-8ad0f705.jpg 2x"
+        media="(max-width:1023px)"
+        width="200"
+      />
+
+      <source
+        srcset="/goit-g7-my-copy-team-project/assets/restourant-hall-350x500-2ca0dba5.jpg 1x, /goit-g7-my-copy-team-project/assets/restourant-hall-350x500@2x-c9ef448d.jpg 2x"
+        media="(min-width:1024px) and (max-width:1279px)"
+        width="350"
+      />
+
+      <source
+        srcset="/goit-g7-my-copy-team-project/assets/restourant-hall-460x574-e6e8bf0f.jpg 1x, /goit-g7-my-copy-team-project/assets/restourant-hall-460x574@2x-59064017.jpg 2x"
+        media="(min-width:1280px)"
+        width="460"
+      />
+
+      <img
+        src="/goit-g7-my-copy-team-project/assets/restourant-hall-460x574-e6e8bf0f.jpg"
+        alt="restaurant"
+      />
+    </picture>
+
+    <p
+      data-aos="fade-left"
+      data-aos-offset="200"
+      data-aos-delay="50"
+      data-aos-duration="1000"
+      data-aos-once="true"
+    >
+      Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
+      Velit officia consequat duis enim velit mollit. Exercitation veniam
+      consequat sunt nostrud amet.
+    </p>
+  </div>
+  <div
+    data-aos="fade-down"
+    data-aos-offset="200"
+    data-aos-delay="50"
+    data-aos-duration="1000"
+    data-aos-once="true"
+  >
+    <div class="swiper-maks">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide">
+          <picture>
+            <source
+              srcset="/goit-g7-my-copy-team-project/assets/restourant-table-245x245-268dcd66.jpg 1x, /goit-g7-my-copy-team-project/assets/restourant-table-245x245@2x-cc638991.jpg 2x"
+              media="(max-width:1023px)"
+              width="245"
+            />
+
+            <source
+              srcset="/goit-g7-my-copy-team-project/assets/restourant-table-194x194-b4334289.jpg 1x, /goit-g7-my-copy-team-project/assets/restourant-table-194x194@2x-6a659734.jpg 2x"
+              media="(min-width:1024px) and (max-width:1279px)"
+              width="194"
+            />
+
+            <source
+              srcset="/goit-g7-my-copy-team-project/assets/restourant-table-254x254-b76f0566.jpg 1x, /goit-g7-my-copy-team-project/assets/restourant-table-254x254@2x-29e8ebdf.jpg 2x"
+              media="(min-width:1280px)"
+              width="254"
+            />
+
+            <img
+              src="/goit-g7-my-copy-team-project/assets/restourant-table-254x254-b76f0566.jpg"
+              alt="slider-1"
+            />
+          </picture>
+        </div>
+        <div class="swiper-slide">
+          <picture>
+            <source
+              srcset="/goit-g7-my-copy-team-project/assets/restourant-chair-245x245-5fde292e.jpg 1x, /goit-g7-my-copy-team-project/assets/restourant-chair-245x245@2x-df922e69.jpg 2x"
+              media="(max-width:1023px)"
+              width="245"
+            />
+
+            <source
+              srcset="/goit-g7-my-copy-team-project/assets/restourant-chair-194x194-480b635d.jpg 1x, /goit-g7-my-copy-team-project/assets/restourant-chair-194x194@2x-b46671b5.jpg 2x"
+              media="(min-width:1024px) and (max-width:1279px)"
+              width="194"
+            />
+
+            <source
+              srcset="/goit-g7-my-copy-team-project/assets/restourant-chair-254x254-0247e794.jpg 1x, /goit-g7-my-copy-team-project/assets/restourant-chair-254x254@2x-faccb842.jpg 2x"
+              media="(min-width:1280px)"
+              width="254"
+            />
+
+            <img
+              src="/goit-g7-my-copy-team-project/assets/restourant-chair-254x254-0247e794.jpg"
+              width="245"
+              alt="slider-2"
+            />
+          </picture>
+        </div>
+        <div class="swiper-slide">
+          <picture>
+            <source
+              srcset="/goit-g7-my-copy-team-project/assets/7-slider-mobile-f79d0218.jpg 1x, /goit-g7-my-copy-team-project/assets/7-slider-mobile@2x-c403aed2.jpg 2x"
+              media="(max-width:1023px)"
+              width="245"
+            />
+
+            <source
+              srcset="/goit-g7-my-copy-team-project/assets/7-slider-tablet-268fb8ad.jpg 1x, /goit-g7-my-copy-team-project/assets/7-slider-tablet@2x-ac7d6340.jpg 2x"
+              media="(min-width:1024px) and (max-width:1279px)"
+              width="194"
+            />
+
+            <source
+              srcset="/goit-g7-my-copy-team-project/assets/7-slider-desktop-a97f21c8.jpg 1x, /goit-g7-my-copy-team-project/assets/7-slider-desktop@2x-f861138e.jpg 2x"
+              media="(min-width:1280px)"
+              width="254"
+            />
+
+            <img
+              src="/goit-g7-my-copy-team-project/assets/7-slider-desktop-a97f21c8.jpg"
+              alt="slider-3"
+            />
+          </picture>
+        </div>
+        <div class="swiper-slide">
+          <picture>
+            <source
+              srcset="/goit-g7-my-copy-team-project/assets/15-slider-mobile-55162cdf.jpg 1x, /goit-g7-my-copy-team-project/assets/15-slider-mobile@2x-e84ceaad.jpg 2x"
+              media="(max-width:1023px)"
+              width="245"
+            />
+
+            <source
+              srcset="/goit-g7-my-copy-team-project/assets/15-slider-tablet-c90b2718.jpg 1x, /goit-g7-my-copy-team-project/assets/15-slider-tablet@2x-423ccde4.jpg 2x"
+              media="(min-width:1024px) and (max-width:1279px)"
+              width="194"
+            />
+
+            <source
+              srcset="/goit-g7-my-copy-team-project/assets/15-slider-desktop-717537d7.jpg 1x, /goit-g7-my-copy-team-project/assets/15-slider-desktop@2x-28a81769.jpg 2x"
+              media="(min-width:1280px)"
+              width="254"
+            />
+
+            <img
+              src="/goit-g7-my-copy-team-project/assets/15-slider-desktop-717537d7.jpg"
+              alt="slider-4"
+            />
+          </picture>
+        </div>
+      </div>
+      <!-- If we need pagination -->
+      <!-- <div class="swiper-pagination"></div> -->
+
+      <!-- If we need navigation buttons -->
+      <div class="swiper-btn-position" role="group">
+        <div class="swiper-button-prev left-btn-swiper">
+          <svg class="svg-arrows">
+            <use href="/goit-g7-my-copy-team-project/assets/arrows-f8d223ab.svg#icon-arrow-left"></use>
+          </svg>
+        </div>
+        <div class="swiper-button-next right-btn-swiper">
+          <svg class="svg-arrows">
+            <use href="/goit-g7-my-copy-team-project/assets/arrows-f8d223ab.svg#icon-arrow-right"></use>
+          </svg>
+        </div>
+      </div>
+
+      <!-- If we need scrollbar -->
+      <!-- <div class="swiper-scrollbar"></div> -->
+    </div>
+  </div>
+</div>
+
+      </section>
+      <section>
+        <!-- Details of our restaurant (door)-->
+<div class="section door">
+  <div class="container">
+    <div class="door-row">
+    <!-- Text -->
+    <div class="door-block-text">
+      <h3 class="door-sub-title">MIMIHO</h3>
+      <h2 class="door-title" lang="uk">Ресторан</h2>
+      <p class="door-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
+        consequat duis enim velit mollit.</p>
+    </div>
+
+    <!-- Slider images -->
+    <div class="door-nav-slider">
+      <div class="door-slider">
+        <ul class="door-slider-list">
+
+          <!-- Image1 -->
+          <li>
+            <div>
+              <picture>
+                <source srcset="/goit-g7-my-copy-team-project/assets/door-slider-01-desktop-113ac6b9.jpg 1x, /goit-g7-my-copy-team-project/assets/door-slider-01-desktop@2x-d0abfadd.jpg 2x"
+                  media="(min-width: 1280px)" 
+                  width="270"
+                  height="270"/>
+                <source srcset="/goit-g7-my-copy-team-project/assets/door-slider-01-desktop-113ac6b9.jpg 1x, /goit-g7-my-copy-team-project/assets/door-slider-01-tablet@2x-a394502b.jpg 2x"
+                  media="(min-width: 1024px)"
+                  width="270"
+                  height="270" />
+                <source srcset="/goit-g7-my-copy-team-project/assets/door-slider-01-mobile-d0369f60.jpg 1x, /goit-g7-my-copy-team-project/assets/door-slider-01-mobile@2x-5cbf5c2e.jpg 2x"
+                  media="(max-width: 1023px)"
+                  width="274"
+                  height="270" />
+              
+                <img
+                  class="door-img" 
+                  src="/goit-g7-my-copy-team-project/assets/door-slider-01-mobile-d0369f60.jpg"
+                  alt="Slider image-01"
+                  loading="lazy"/>
+              </picture>
+            </div>
+          </li>
+
+          <!-- Image2 -->
+          <li>
+            <div>
+              <picture>
+                  <source srcset="/goit-g7-my-copy-team-project/assets/door-slider-02-desktop-3f240b9b.jpg 1x, /goit-g7-my-copy-team-project/assets/door-slider-02-desktop@2x-98713b91.jpg 2x"
+                    media="(min-width: 1280px)" 
+                    width="162"
+                    height="270"/>
+                  <source srcset="/goit-g7-my-copy-team-project/assets/door-slider-02-desktop-3f240b9b.jpg 1x, /goit-g7-my-copy-team-project/assets/door-slider-02-desktop@2x-98713b91.jpg 2x"
+                    media="(min-width: 1024px)" 
+                    width="162"
+                    height="270"/>
+                  <source srcset="/goit-g7-my-copy-team-project/assets/door-slider-02-desktop-3f240b9b.jpg 1x, /goit-g7-my-copy-team-project/assets/door-slider-02-desktop@2x-98713b91.jpg 2x"
+                    media="(max-width: 1023px)" 
+                    width="162"
+                    height="270"/>
+
+                  <img 
+                    class="door-img" 
+                    src="/goit-g7-my-copy-team-project/assets/door-slider-02-desktop-3f240b9b.jpg" 
+                    alt="Slider image-02"
+                    loading="lazy">
+              </picture>
+            </div>
+          </li>
+
+          <!-- Image3 -->
+          <li>
+            <div>
+              <picture>
+                <source srcset="/goit-g7-my-copy-team-project/assets/door-slider-03-desktop-9fc14095.jpg 1x, /goit-g7-my-copy-team-project/assets/door-slider-03-desktop@2x-9a495593.jpg 2x"
+                  media="(min-width: 1280px)"
+                  width="270"
+                  height="270"/>
+                <source srcset="/goit-g7-my-copy-team-project/assets/door-slider-03-desktop-9fc14095.jpg 1x, /goit-g7-my-copy-team-project/assets/door-slider-03-desktop@2x-9a495593.jpg 2x"
+                  media="(min-width: 1024px)" 
+                  width="270"
+                  height="270"/>
+                <source srcset="/goit-g7-my-copy-team-project/assets/door-slider-03-desktop-9fc14095.jpg 1x, /goit-g7-my-copy-team-project/assets/door-slider-03-desktop@2x-9a495593.jpg 2x"
+                  media="(max-width: 1023px)" 
+                  width="274"
+                  height="270"/>
+              
+                <img 
+                  class="door-img" 
+                  src="/goit-g7-my-copy-team-project/assets/door-slider-03-desktop-9fc14095.jpg" 
+                  alt="Slider image-03"
+                  loading="lazy">
+              </picture>
+            </div>
+          </li>
+        </ul>
+
+        <!-- Navigate slider -->
+        <button class="door-btn-prev" type="button" >
+          <svg class="door-icon" width="32" height="32">
+            <use href="/goit-g7-my-copy-team-project/assets/sprite-arrow-slider-7561e636.svg#icon-arrow-prev"></use>
+          </svg>
+        </button>
+        <button class="door-btn-next" type="button">
+          <svg class="door-icon" width="32" height="32">
+            <use href="/goit-g7-my-copy-team-project/assets/sprite-arrow-slider-7561e636.svg#icon-arrow-next"></use>
+          </svg>
+        </button>
+      </div>
+
+      <!-- Buttons -->
+      <div class="door-buttons">
+        <!-- Book Table -->
+        <button class="button-black js-open-modal" data-modal="1" type="button" lang="uk">Забронювати столик</button>
+        <!-- Open menu -->
+        <a class="button-black"
+          href="./restaurant.html#menu" lang="uk">
+          Переглянути меню
+        </a>
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
+      </section>
+      <!--hotel-->
+      <section class="section-3-cream second-cream">
+        <div class="container-maks">
+  <div class="restaurant-first-box">
+    <div
+      class="picture-width-animation"
+      data-aos="fade-right"
+      data-aos-offset="200"
+      data-aos-delay="50"
+      data-aos-duration="1000"
+      data-aos-once="true"
+    >
+      <picture>
+        <source
+          srcset="/goit-g7-my-copy-team-project/assets/hotel-main-room-244x322@2x-1a85eac2.jpg 1x, /goit-g7-my-copy-team-project/assets/hotel-main-room-244x322@2x-1a85eac2.jpg 2x"
+          media="(max-width:1023px)"
+          width="244"
+        />
+
+        <source
+          srcset="/goit-g7-my-copy-team-project/assets/hotel-main-room-400x524-949d81b3.jpg 1x, /goit-g7-my-copy-team-project/assets/hotel-main-room-400x524@2x-a2060dbb.jpg 2x"
+          media="(min-width:1024px) and (max-width:1279px)"
+          width="400"
+        />
+
+        <source
+          srcset="/goit-g7-my-copy-team-project/assets/hotel-main-room-460x574-6bf9d14b.jpg 1x, /goit-g7-my-copy-team-project/assets/hotel-main-room-460x574@2x-06487002.jpg 2x"
+          media="(min-width:1280px)"
+          width="460"
+        />
+
+        <img
+          class="restaurant-img-first"
+          src="/goit-g7-my-copy-team-project/assets/hotel-main-room-460x574-6bf9d14b.jpg"
+          alt="hotel"
+        />
+      </picture>
+    </div>
+    <div
+      data-aos="fade-left"
+      data-aos-offset="200"
+      data-aos-delay="50"
+      data-aos-duration="1000"
+      data-aos-once="true"
+    >
+      <h2>Amet minim mollit non</h2>
+      <h3>MIMIHO</h3>
+      <p>
+        Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+        sint. Velit officia consequat duis enim velit mollit. Exercitation
+        veniam consequat sunt nostrud amet.
+      </p>
+    </div>
+  </div>
+  <div class="restaurant-second-box">
+    <picture
+      data-aos="fade-left"
+      data-aos-offset="200"
+      data-aos-delay="50"
+      data-aos-duration="1000"
+      data-aos-once="true"
+    >
+      <source
+        srcset="/goit-g7-my-copy-team-project/assets/hotel-lobby-200x278-ad0c39f4.jpg 1x, /goit-g7-my-copy-team-project/assets/hotel-lobby-200x278@2x-6363b849.jpg 2x"
+        media="(max-width:1023px)"
+        width="200"
+      />
+
+      <source
+        srcset="/goit-g7-my-copy-team-project/assets/hotel-lobby-350x500-3f1dd309.jpg 1x, /goit-g7-my-copy-team-project/assets/hotel-lobby-350x500@2x-a1042519.jpg 2x"
+        media="(min-width:1024px) and (max-width:1279px)"
+        width="350"
+      />
+
+      <source
+        srcset="/goit-g7-my-copy-team-project/assets/hotel-lobby-460x574-379d59ea.jpg 1x, /goit-g7-my-copy-team-project/assets/hotel-lobby-460x574@2x-76140296.jpg 2x"
+        media="(min-width:1280px)"
+        width="460"
+      />
+
+      <img
+        src="/goit-g7-my-copy-team-project/assets/hotel-lobby-200x278-ad0c39f4.jpg"
+        alt="hotel"
+      />
+    </picture>
+
+    <p
+      data-aos="fade-right"
+      data-aos-offset="200"
+      data-aos-delay="50"
+      data-aos-duration="1000"
+      data-aos-once="true"
+    >
+      Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
+      Velit officia consequat duis enim velit mollit. Exercitation veniam
+      consequat sunt nostrud amet.
+    </p>
+  </div>
+
+  <div
+    data-aos="fade-down"
+    data-aos-offset="200"
+    data-aos-delay="50"
+    data-aos-duration="1000"
+    data-aos-once="true"
+  >
+    <div dir="rtl" class="swiper-maks">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide">
+          <picture>
+            <source
+              srcset="/goit-g7-my-copy-team-project/assets/hotel-reception-245x245-a392c49c.jpg 1x, /goit-g7-my-copy-team-project/assets/hotel-reception-245x245@2x-8b9c5401.jpg 2x"
+              media="(max-width:1023px)"
+              width="245"
+            />
+
+            <source
+              srcset="/goit-g7-my-copy-team-project/assets/hotel-reception-194x194-994c28f7.jpg 1x, /goit-g7-my-copy-team-project/assets/hotel-reception-194x194@2x-348f4c05.jpg 2x"
+              media="(min-width:1024px) and (max-width:1279px)"
+              width="194"
+            />
+
+            <source
+              srcset="/goit-g7-my-copy-team-project/assets/hotel-reception-254x254-81e1ec47.jpg 1x, /goit-g7-my-copy-team-project/assets/hotel-reception-254x254@2x-c2fe70b2.jpg 2x"
+              media="(min-width:1280px)"
+              width="254"
+            />
+
+            <img
+              src="/goit-g7-my-copy-team-project/assets/hotel-reception-254x254-81e1ec47.jpg"
+              alt="slider-1"
+            />
+          </picture>
+        </div>
+        <div class="swiper-slide">
+          <picture>
+            <source
+              srcset="/goit-g7-my-copy-team-project/assets/hotel-towels-254x254-d367075f.jpg 1x, /goit-g7-my-copy-team-project/assets/hotel-towels-254x254@2x-854c1a8a.jpg 2x"
+              media="(max-width:1023px)"
+              width="245"
+            />
+
+            <source
+              srcset="/goit-g7-my-copy-team-project/assets/hotel-towels-254x254-d367075f.jpg 1x, /goit-g7-my-copy-team-project/assets/hotel-towels-254x254@2x-854c1a8a.jpg 2x"
+              media="(min-width:1024px) and (max-width:1279px)"
+              width="194"
+            />
+
+            <source
+              srcset="/goit-g7-my-copy-team-project/assets/hotel-towels-254x254-d367075f.jpg 1x, /goit-g7-my-copy-team-project/assets/hotel-towels-254x254@2x-854c1a8a.jpg 2x"
+              media="(min-width:1280px)"
+              width="254"
+            />
+
+            <img
+              src="/goit-g7-my-copy-team-project/assets/hotel-towels-254x254-d367075f.jpg"
+              width="245"
+              alt="slider-2"
+            />
+          </picture>
+        </div>
+        <div class="swiper-slide">
+          <picture>
+            <source
+              srcset="/goit-g7-my-copy-team-project/assets/1-slider-mobile-e94bcc0a.jpg 1x, /goit-g7-my-copy-team-project/assets/1-slider-mobile@2x-724f53b3.jpg 2x"
+              media="(max-width:1023px)"
+              width="245"
+            />
+
+            <source
+              srcset="/goit-g7-my-copy-team-project/assets/1-slider-tablet-5015cdea.jpg 1x, /goit-g7-my-copy-team-project/assets/1-slider-tablet@2x-8ea74676.jpg 2x"
+              media="(min-width:1024px) and (max-width:1279px)"
+              width="194"
+            />
+
+            <source
+              srcset="/goit-g7-my-copy-team-project/assets/1-slider-desktop-a737b696.jpg 1x, /goit-g7-my-copy-team-project/assets/1-slider-desktop@2x-e8e6bc96.jpg 2x"
+              media="(min-width:1280px)"
+              width="254"
+            />
+
+            <img
+              src="/goit-g7-my-copy-team-project/assets/1-slider-desktop-a737b696.jpg"
+              alt="slider-3"
+            />
+          </picture>
+        </div>
+        <div class="swiper-slide">
+          <picture>
+            <source
+              srcset="/goit-g7-my-copy-team-project/assets/2-slider-mobile-84d2d5ff.jpg 1x, /goit-g7-my-copy-team-project/assets/2-slider-mobile@2x-4856eb4f.jpg 2x"
+              media="(max-width:1023px)"
+              width="245"
+            />
+
+            <source
+              srcset="/goit-g7-my-copy-team-project/assets/2-slider-tablet-80f94a7f.jpg 1x, /goit-g7-my-copy-team-project/assets/2-slider-tablet@2x-7d58731c.jpg 2x"
+              media="(min-width:1024px) and (max-width:1279px)"
+              width="194"
+            />
+
+            <source
+              srcset="/goit-g7-my-copy-team-project/assets/2-slider-desktop-a6cfa12b.jpg 1x, /goit-g7-my-copy-team-project/assets/2-slider-desktop@2x-beed4d09.jpg 2x"
+              media="(min-width:1280px)"
+              width="254"
+            />
+
+            <img
+              src="/goit-g7-my-copy-team-project/assets/2-slider-desktop-a6cfa12b.jpg"
+              alt=""
+            />
+          </picture>
+        </div>
+        <div class="swiper-slide">
+          <picture>
+            <source
+              srcset="/goit-g7-my-copy-team-project/assets/3-slider-mobile-e5e62f43.jpg 1x, /goit-g7-my-copy-team-project/assets/3-slider-mobile@2x-480054ee.jpg 2x"
+              media="(max-width:1023px)"
+              width="245"
+            />
+
+            <source
+              srcset="/goit-g7-my-copy-team-project/assets/3-slider-tablet-f26c3466.jpg 1x, /goit-g7-my-copy-team-project/assets/3-slider-tablet@2x-46ab6549.jpg 2x"
+              media="(min-width:1024px) and (max-width:1279px)"
+              width="194"
+            />
+
+            <source
+              srcset="/goit-g7-my-copy-team-project/assets/3-slider-desktop-a7ee300f.jpg 1x, /goit-g7-my-copy-team-project/assets/3-slider-desktop@2x-ca8e8562.jpg 2x"
+              media="(min-width:1280px)"
+              width="254"
+            />
+
+            <img
+              src="/goit-g7-my-copy-team-project/assets/3-slider-desktop-a7ee300f.jpg"
+              alt="slider-4"
+            />
+          </picture>
+        </div>
+        <div class="swiper-slide">
+          <picture>
+            <source
+              srcset="/goit-g7-my-copy-team-project/assets/4-slider-mobile-59357e8a.jpg 1x, /goit-g7-my-copy-team-project/assets/4-slider-mobile@2x-0b7e3143.jpg 2x"
+              media="(max-width:1023px)"
+              width="245"
+            />
+
+            <source
+              srcset="/goit-g7-my-copy-team-project/assets/4-slider-tablet-87c6e70f.jpg 1x, /goit-g7-my-copy-team-project/assets/4-slider-tablet@2x-6d428517.jpg 2x"
+              media="(min-width:1024px) and (max-width:1279px)"
+              width="194"
+            />
+
+            <source
+              srcset="/goit-g7-my-copy-team-project/assets/4-slider-desktop-44aee1f7.jpg 1x, /goit-g7-my-copy-team-project/assets/4-slider-desktop@2x-4bffd161.jpg 2x"
+              media="(min-width:1280px)"
+              width="254"
+            />
+
+            <img
+              src="/goit-g7-my-copy-team-project/assets/4-slider-desktop-44aee1f7.jpg"
+              alt="slider-5"
+            />
+          </picture>
+        </div>
+        <div class="swiper-slide">
+          <picture>
+            <source
+              srcset="/goit-g7-my-copy-team-project/assets/5-slider-mobile-52b837e3.jpg 1x, /goit-g7-my-copy-team-project/assets/5-slider-mobile@2x-4677cf97.jpg 2x"
+              media="(max-width:1023px)"
+              width="245"
+            />
+
+            <source
+              srcset="/goit-g7-my-copy-team-project/assets/5-slider-tablet-c8a6bd9b.jpg 1x, /goit-g7-my-copy-team-project/assets/5-slider-tablet@2x-d6e03193.jpg 2x"
+              media="(min-width:1024px) and (max-width:1279px)"
+              width="194"
+            />
+
+            <source
+              srcset="/goit-g7-my-copy-team-project/assets/5-slider-desktop-9f74d46f.jpg 1x, /goit-g7-my-copy-team-project/assets/5-slider-desktop@2x-0b8197ff.jpg 2x"
+              media="(min-width:1280px)"
+              width="254"
+            />
+
+            <img
+              src="/goit-g7-my-copy-team-project/assets/5-slider-desktop-9f74d46f.jpg"
+              alt="slider-6"
+            />
+          </picture>
+        </div>
+        <div class="swiper-slide">
+          <picture>
+            <source
+              srcset="/goit-g7-my-copy-team-project/assets/10-slider-mobile-a65a9898.jpg 1x, /goit-g7-my-copy-team-project/assets/10-slider-mobile@2x-b17c08af.jpg 2x"
+              media="(max-width:1023px)"
+              width="245"
+            />
+
+            <source
+              srcset="/goit-g7-my-copy-team-project/assets/10-slider-tablet-45bd7ce7.jpg 1x, /goit-g7-my-copy-team-project/assets/10-slider-tablet@2x-6d1daf4b.jpg 2x"
+              media="(min-width:1024px) and (max-width:1279px)"
+              width="194"
+            />
+
+            <source
+              srcset="/goit-g7-my-copy-team-project/assets/10-slider-desktop-4c4cb938.jpg 1x, /goit-g7-my-copy-team-project/assets/10-slider-desktop@2x-8b63e0c9.jpg 2x"
+              media="(min-width:1280px)"
+              width="254"
+            />
+
+            <img
+              src="/goit-g7-my-copy-team-project/assets/10-slider-desktop-4c4cb938.jpg"
+              alt="slider-7"
+            />
+          </picture>
+        </div>
+        <div class="swiper-slide">
+          <picture>
+            <source
+              srcset="/goit-g7-my-copy-team-project/assets/11-slider-mobile-8f793415.jpg 1x, /goit-g7-my-copy-team-project/assets/11-slider-mobile@2x-d247f055.jpg 2x"
+              media="(max-width:1023px)"
+              width="245"
+            />
+
+            <source
+              srcset="/goit-g7-my-copy-team-project/assets/11-slider-tablet-fdd2eecc.jpg 1x, /goit-g7-my-copy-team-project/assets/11-slider-tablet@2x-0be992ed.jpg 2x"
+              media="(min-width:1024px) and (max-width:1279px)"
+              width="194"
+            />
+
+            <source
+              srcset="/goit-g7-my-copy-team-project/assets/11-slider-desktop-321205e7.jpg 1x, /goit-g7-my-copy-team-project/assets/11-slider-desktop@2x-9207168b.jpg 2x"
+              media="(min-width:1280px)"
+              width="254"
+            />
+
+            <img
+              src="/goit-g7-my-copy-team-project/assets/11-slider-desktop-321205e7.jpg"
+              alt="slider-8"
+            />
+          </picture>
+        </div>
+        <div class="swiper-slide">
+          <picture>
+            <source
+              srcset="/goit-g7-my-copy-team-project/assets/12-slider-mobile-2d716b85.jpg 1x, /goit-g7-my-copy-team-project/assets/12-slider-mobile@2x-0f9f2b66.jpg 2x"
+              media="(max-width:1023px)"
+              width="245"
+            />
+
+            <source
+              srcset="/goit-g7-my-copy-team-project/assets/12-slider-tablet-3a839612.jpg 1x, /goit-g7-my-copy-team-project/assets/12-slider-tablet@2x-0cefde58.jpg 2x"
+              media="(min-width:1024px) and (max-width:1279px)"
+              width="194"
+            />
+
+            <source
+              srcset="/goit-g7-my-copy-team-project/assets/12-slider-desktop-528b6dab.jpg 1x, /goit-g7-my-copy-team-project/assets/12-slider-desktop@2x-e235281c.jpg 2x"
+              media="(min-width:1280px)"
+              width="254"
+            />
+
+            <img
+              src="/goit-g7-my-copy-team-project/assets/12-slider-desktop-528b6dab.jpg"
+              alt="slider-9"
+            />
+          </picture>
+        </div>
+        <div class="swiper-slide">
+          <picture>
+            <source
+              srcset="/goit-g7-my-copy-team-project/assets/13-slider-mobile-ce5f2974.jpg 1x, /goit-g7-my-copy-team-project/assets/13-slider-mobile@2x-c14b71d8.jpg 2x"
+              media="(max-width:1023px)"
+              width="245"
+            />
+
+            <source
+              srcset="data:image/jpeg;base64,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 1x, /goit-g7-my-copy-team-project/assets/13-slider-tablet@2x-4ec8189f.jpg 2x"
+              media="(min-width:1024px) and (max-width:1279px)"
+              width="194"
+            />
+
+            <source
+              srcset="/goit-g7-my-copy-team-project/assets/13-slider-desktop-8029215e.jpg 1x, /goit-g7-my-copy-team-project/assets/13-slider-desktop@2x-c2b0ab7c.jpg 2x"
+              media="(min-width:1280px)"
+              width="254"
+            />
+
+            <img
+              src="/goit-g7-my-copy-team-project/assets/13-slider-desktop-8029215e.jpg"
+              alt="slider-10"
+            />
+          </picture>
+        </div>
+        <div class="swiper-slide">
+          <picture>
+            <source
+              srcset="/goit-g7-my-copy-team-project/assets/14-slider-mobile-0ee70c68.jpg 1x, /goit-g7-my-copy-team-project/assets/14-slider-mobile@2x-37abad2f.jpg 2x"
+              media="(max-width:1023px)"
+              width="245"
+            />
+
+            <source
+              srcset="/goit-g7-my-copy-team-project/assets/14-slider-tablet-2b982fa2.jpg 1x, /goit-g7-my-copy-team-project/assets/14-slider-tablet@2x-213bcbbe.jpg 2x"
+              media="(min-width:1024px) and (max-width:1279px)"
+              width="194"
+            />
+
+            <source
+              srcset="/goit-g7-my-copy-team-project/assets/14-slider-desktop-6619ded4.jpg 1x, /goit-g7-my-copy-team-project/assets/14-slider-desktop@2x-e2b8871a.jpg 2x"
+              media="(min-width:1280px)"
+              width="254"
+            />
+
+            <img
+              src="/goit-g7-my-copy-team-project/assets/14-slider-desktop-6619ded4.jpg"
+              alt="slider-11"
+            />
+          </picture>
+        </div>
+      </div>
+      <!-- If we need pagination -->
+      <!-- <div class="swiper-pagination"></div> -->
+
+      <!-- If we need navigation buttons -->
+      <div class="swiper-btn-position" role="group">
+        <div class="swiper-button-prev left-btn-swiper">
+          <svg class="svg-arrows">
+            <use href="/goit-g7-my-copy-team-project/assets/arrows-f8d223ab.svg#icon-arrow-left"></use>
+          </svg>
+        </div>
+        <div class="swiper-button-next right-btn-swiper">
+          <svg class="svg-arrows">
+            <use href="/goit-g7-my-copy-team-project/assets/arrows-f8d223ab.svg#icon-arrow-right"></use>
+          </svg>
+        </div>
+      </div>
+
+      <!-- If we need scrollbar -->
+      <!-- <div class="swiper-scrollbar"></div> -->
+    </div>
+  </div>
+</div>
+
+      </section>
+      <section>
+        <!-- <div class="hotel-details-max"> -->
+<div class="container-services">
+  <div class="container">  
+    <div class="hotel-text-content">
+      <h3 class="label">MIMIH<span class="hotel-letter">O</span></h3>
+      <h2 class="hotel-text">Готель</h2>
+      <p class="description-text">
+          Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+          sint. Velit officia consequat duis enim velit mollit.
+      </p>
+    </div>
+
+    <!-- Slider + block buttons anower pages-->
+    <div class="hotel-nav-slider-max">
+
+      <!-- Slider overflow -->
+      <div class="hotel-slider-max">
+
+        <!-- Slider + button-nav-->
+        <div class="hotel-slider-img">
+
+          <!-- List images -->
+          <ul class="service-img-list">
+
+            <!-- Image1 -->
+            <li>
+              <div>
+                <picture>
+                  <source srcset="/goit-g7-my-copy-team-project/assets/dooh-slider-03-desktop-a39e1f36.jpg 1x, /goit-g7-my-copy-team-project/assets/dooh-slider-03-desktop@2x-16fb21ce.jpg 2x"
+                    media="(min-width: 1280px)" 
+                    width="270"
+                    height="270"/>
+                  <source srcset="/goit-g7-my-copy-team-project/assets/dooh-slider-03-desktop-a39e1f36.jpg 1x, /goit-g7-my-copy-team-project/assets/dooh-slider-03-desktop@2x-16fb21ce.jpg 2x"
+                    media="(min-width: 1024px)" 
+                    width="270"
+                    height="270"/>
+                  <source srcset="/goit-g7-my-copy-team-project/assets/dooh-slider-03-desktop-a39e1f36.jpg 1x, /goit-g7-my-copy-team-project/assets/dooh-slider-03-desktop@2x-16fb21ce.jpg 2x"
+                    media="(max-width: 1023px)" 
+                    width="274"
+                    height="270"/>
+                
+                  <img
+                    class="hotel-img-max" 
+                    src="/goit-g7-my-copy-team-project/assets/dooh-slider-03-desktop-a39e1f36.jpg"
+                    alt="Slider image-03"
+                    loading="lazy"/>
+                </picture>
+              </div>
+            </li>
+
+            <!-- Image2 -->
+            <li>
+              <div>
+                <picture>
+                    <source srcset="/goit-g7-my-copy-team-project/assets/dooh-slider-02-desktop-5e5d94e9.jpg 1x, /goit-g7-my-copy-team-project/assets/dooh-slider-02-desktop@2x-d30c2c68.jpg 2x"
+                      media="(min-width: 1280px)" 
+                      width="162"
+                      height="270"/>
+                    <source srcset="/goit-g7-my-copy-team-project/assets/dooh-slider-02-desktop-5e5d94e9.jpg 1x, /goit-g7-my-copy-team-project/assets/dooh-slider-02-desktop@2x-d30c2c68.jpg 2x"
+                      media="(min-width: 1024px)" 
+                      width="162"
+                      height="270"/>
+                    <source srcset="/goit-g7-my-copy-team-project/assets/dooh-slider-02-desktop-5e5d94e9.jpg 1x, /goit-g7-my-copy-team-project/assets/dooh-slider-02-desktop@2x-d30c2c68.jpg 2x"
+                      media="(max-width: 1023px)" 
+                      width="162"
+                      height="270"/>
+
+                    <img 
+                      class="hotel-img-max" 
+                      src="/goit-g7-my-copy-team-project/assets/dooh-slider-02-desktop-5e5d94e9.jpg" 
+                      alt="Slider image-02"
+                      loading="lazy">
+                </picture>
+              </div>
+            </li>
+
+            <!-- Image3 -->
+            <li>
+              <div>
+                <picture>
+                  <source srcset="/goit-g7-my-copy-team-project/assets/dooh-slider-01-desktop-2c88c5b1.jpg 1x, /goit-g7-my-copy-team-project/assets/dooh-slider-01-desktop@2x-3cf84259.jpg 2x"
+                    media="(min-width: 1280px)" 
+                    width="270"
+                    height="270"/>
+                  <source srcset="/goit-g7-my-copy-team-project/assets/dooh-slider-01-tablet-ad01c78f.jpg 1x, /goit-g7-my-copy-team-project/assets/dooh-slider-01-tablet@2x-8efdf410.jpg 2x"
+                    media="(min-width: 1024px)" 
+                    width="270"
+                    height="270"/>
+                  <source srcset="/goit-g7-my-copy-team-project/assets/dooh-slider-01-mobile-53697989.jpg 1x, /goit-g7-my-copy-team-project/assets/dooh-slider-01-mobile@2x-bce35033.jpg 2x"
+                    media="(max-width: 1023px)" 
+                    width="274"
+                    height="270"/>
+                
+                  <img 
+                    class="hotel-img-max" 
+                    src="/goit-g7-my-copy-team-project/assets/dooh-slider-01-mobile-53697989.jpg" 
+                    alt="Slider image-01"
+                    loading="lazy">
+                </picture>
+              </div>
+            </li>
+
+          </ul>
+
+          <!-- Navigate slider -->
+          <ul class="hotel-btn-slider">
+            <li class="slider-pointer">
+              <svg class="icon-left" width="32" height="32">
+                <use href="/goit-g7-my-copy-team-project/assets/sprite-8c0a79cc.svg#arrow-left"></use>
+              </svg>
+            </li>
+            <li class="slider-pointer">
+              <svg class="icon-right" width="32" height="32">
+                <use href="/goit-g7-my-copy-team-project/assets/sprite-8c0a79cc.svg#arrow-right"></use>
+              </svg>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Buttons -->
+      <div class="service-btn">
+        <button 
+          type="button" 
+          class="button-black js-open-modal" 
+          data-modal="2">
+          Забронювати номер
+        </button>
+        <a class="button-black" 
+          href="./hotel.html">
+          Переглянути ціни
+        </a>
+      </div>      
+    </div>
+  </div>
+</div>
+<!-- </div> -->
+      </section>
+      <!--map-->
+      <section>
+        <!-- map -->
+<!-- SSerg -->
+<div class="section map-contacts" id="map">
+  <div class="container">
+    <div class="map-card">
+      <div
+        class="map-contacts-card"
+        data-aos="fade-right"
+        data-aos-offset="200"
+        data-aos-delay="50"
+        data-aos-duration="1000"
+        data-aos-once="true"
+      >
+        <h3 class="map-sub-title">MIMIHO</h3>
+        <h2 class="map-title visually-hidden" lang="uk">
+          Контакти та мапа розташування
+        </h2>
+        <p class="map-text" lang="uk">Ресторанно-готельний комплекс</p>
+
+        <div class="map-field-restaurant">
+          <p class="map-label-text" lang="uk">Ресторан</p>
+          <div class="map-tel-restaurant">
+            <span class="map-icon-text">
+              <svg class="map-icon" width="24" height="24">
+                <use href="/goit-g7-my-copy-team-project/assets/sprite-ca10bcbe.svg#icon-phone"></use>
+              </svg>
+            </span>
+            <a class="map-link-phone" href="tel:+380955559533">
+              095&nbsp;555&nbsp;95&nbsp;33
+            </a>
+          </div>
+        </div>
+
+        <div class="map-field-hotel">
+          <p class="map-label-text" lang="uk">Готель</p>
+          <div class="map-tels-hotel">
+            <span class="map-icon-text">
+              <svg class="map-icon" width="24" height="24">
+                <use href="/goit-g7-my-copy-team-project/assets/sprite-ca10bcbe.svg#icon-phone"></use>
+              </svg>
+            </span>
+            <ul class="map-list-tels-hotel">
+              <li>
+                <a class="map-link-phone" href="tel:+380668491089"
+                  >066&nbsp;849&nbsp;10&nbsp;89</a
+                >
+              </li>
+              <li>
+                <a class="map-link-phone" href="tel:+380672758540"
+                  >067&nbsp;275&nbsp;85&nbsp;40</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="map-field-address">
+          <p class="map-label-text"></p>
+
+          <div class="map-block-address">
+            <a
+              class="map-address-text map-link-phone"
+              href="https://goo.gl/maps/Grp7XXtRsGtsApyo6"
+              rel="noreferrer nofollow noopener"
+              lang="uk"
+            >
+              <span class="map-icon-text">
+                <svg class="map-icon" width="24" height="24">
+                  <use
+                    href="/goit-g7-my-copy-team-project/assets/sprite-ca10bcbe.svg#icon-map-location-pin"
+                  ></use>
+                </svg>
+              </span>
+              Україна, м. Полтава, вул. Маршала Бірюзова, 15
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="map-google-map"
+        data-aos="fade-left"
+        data-aos-offset="200"
+        data-aos-delay="50"
+        data-aos-duration="1000"
+        data-aos-once="true"
+      >
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2585.923397025346!2d34.5265463!3d49.59919399999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d82601f3347a5f%3A0x36f3f9aeec44a6a!2z0LLRg9C70LjRhtGPINCc0LDRgNGI0LDQu9CwINCR0ZbRgNGO0LfQvtCy0LAsIDE1LCDQn9C-0LvRgtCw0LLQsCwg0J_QvtC70YLQsNCy0YHRjNC60LAg0L7QsdC70LDRgdGC0YwsINCj0LrRgNCw0ZfQvdCwLCAzNjAwMA!5e0!3m2!1suk!2sde!4v1676137902068!5m2!1suk!2sde"
+          width="100%"
+          height="100%"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          rel="noopener noreferrer"
+          referrerpolicy="no-referrer-when-downgrade"
+        >
+        </iframe>
+      </div>
+    </div>
+  </div>
+</div>
+
+      </section>
+    </main>
+    <!--footer-->
+    <footer>
+      
+
+
+
+
+<div class="footer-container">
+    <div class="footer">
+        <div class="container footer-wrapper">
+            <div class="logo-and-link-wrapper">
+                <div class="footer-logo-wrapper">
+                    <a class="footer-logo" href="./index.html">MIMIH<span class="last-letter-spacing">O</span></a>
+                </div>
+              
+                    <div class="footer-link-wrapper">
+                        <ul class="footer-list">
+                            <li class="footer-item">
+                                <a href="./index.html"  class="footer-word-link" lang="uk">Головна</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="./restaurant.html" class="footer-word-link" lang="uk">Ресторан</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="./hotel.html" class="footer-word-link" lang="uk">Готель</a>
+                            </li>
+                        </ul>
+                    </div>
+            </div>
+            
+                    <div class="footer-icon-wrapper">
+                    <ul class="footer-soc-icon-list">
+                        <li class="footer-soc-icon-item">
+                            <a href="https://www.instagram.com/" target="_blank" class="footer-soc-item-word" >Instagram</a>
+                            <svg class="footer-soc-icon" width="24" height="24">
+                                <use href="/goit-g7-my-copy-team-project/assets/icons-3d060f7a.svg#icon-instagram" ></use>
+                            </svg>
+                        </li>
+                        <li class="footer-soc-icon-item">
+                            <a href="https://www.facebook.com/"  target="_blank" class="footer-soc-item-word" >Facebook</a>
+                            <svg class="footer-soc-icon" width="24" height="24">
+                                <use href="/goit-g7-my-copy-team-project/assets/icons-3d060f7a.svg#icon-facebook"></use>
+                            </svg>
+                        </li>
+                        <li class="footer-soc-icon-item">
+                            <a href="https://web.telegram.org/k/"  target="_blank" class="footer-soc-item-word">Telegram</a>
+                            <svg class="footer-soc-icon" width="24" height="24">
+                                <use href="/goit-g7-my-copy-team-project/assets/icons-3d060f7a.svg#icon-telegram" ></use>
+                            </svg>
+                        </li>
+                    </ul>
+                    </div>
+            </div>
+        </div>
+    </div>
+    </footer>
+  <!--modal-windows-->
+      <div class="container">
+
+  <!--Modal TABLE-->
+
+  <div class="modal" data-modal="1">
+		<div class="table-modal">
+  		<button 
+			  type="button" 
+			  class="modal-close-btn js-modal-close" 
+			  data-modal-close>
+			  <svg class="modal-close-btn-icon" width="18" height="18">
+				  <use href="/goit-g7-my-copy-team-project/assets/icons-3d060f7a.svg#icon-btn_svg"></use>
+			  </svg>
+  		</button>
+		
+			<p class="table-modal-text" lang="uk">ЗАБРОНЮВAТИ СТОЛИК</p>
+
+ 			<form class="table-modal-form">
+  	  	<div class="table-form">
+  	  		<div class="table-block">
+  	  			<label class="modal-form-field">
+  	      		<span class="modal-form-input-wrapper">
+  	  					<input type="text" name="user_name" placeholder="Ваше ім'я" class="table-modal-input" required pattern="^[a-zA-Za-яА-Я-іІїЇ]+$" minlength="2" />
+  	      			<span class="table-input-desc" lang="uk">На кого забронювати столик?</span>
+  	      		</span>
+  	  			</label>
+
+  	  			<label class="modal-form-field">
+  	       		<span class="modal-form-input-wrapper">
+  	  					<input type="tel" name="user_phone" placeholder="+38 (___) ___-__-__" class="table-modal-input" required pattern="^[+][0-9]{12}" title="Номер повинен бути в форматі '+380XXXXXXXXX'"  />
+  	  					<span class="table-input-desc" lang="uk">Номер телефону</span>
+  	      		</span>
+  	   			</label>  
+  	  		</div>
+
+  	   		<div class="table-block">
+  	      	<label class="modal-form-field">   
+  	        	<span class="modal-form-input-wrapper">
+					<svg class="click-icon" width="19.95" height="11.48">
+						<use href="/goit-g7-my-copy-team-project/assets/icons-3d060f7a.svg#icon-click"></use>
+					</svg>
+  						  <select id="table-form-persons" name="persons" class="table-persons" >
+  						      <option value="1" lang="uk">Кількість персон</option>
+							  <option value="2">1</option>
+  						      <option value="3">2</option>
+  						      <option value="4">3</option>
+  						      <option value="5">4</option>
+  						      <option value="6">5</option>
+  						      <option value="7">6</option>
+  						      <option value="8">7</option>
+  						      <option value="9">8</option>
+  						      <option value="10">9</option>
+  						      <option value="11">10</option>
+  						  </select>
+  						  <span class="table-input-desc" lang="uk">Столик на яку кількість осіб?</span>
+  						</span> 
+  				  </label>
+
+  	  			<label class="modal-form-field">   
+  	  				<span class="modal-form-input-wrapper">
+  	  			    <!-- <svg class="click-icon" width="19.95" height="11.48">
+  	  			    	<use href="./images/icons.svg#icon-click"></use>
+  	  			    </svg>
+  	  					<select name="day" class="table-modal-select" > 
+							<option value="today" lang="uk">Оберіть день</option>
+  	  			    		<option value="today" lang="uk">Сьогодні</option>
+  	  			    		<option value="tomorrow" lang="uk">Завтра</option> 
+  	  			    		<option value="second_tomorrow">Післязавтра</option>
+  	  					</select> -->
+
+								<input 
+										class="table-modal-input" 
+										type="text" 
+										id="date-book-table" 
+										placeholder="Виберіть дату">
+  
+								<span class="table-input-desc" lang="uk">На яку дату бронювати?</span>
+  	  				</span>
+  	  			</label>
+  	  		</div> 
+				</div>
+
+  	  	<button type="submit" class="button-big-pointed" lang="uk">ОФОРМИТИ БРОНЮВАННЯ</button>
+ 			</form>
+		</div>
+	</div>
+
+
+  <!--Modal ROOM--->
+
+  <div class="modal" data-modal="2">
+    <div class="room-modal">
+    	<button type="button" class="modal-close-btn js-modal-close" data-modal-close>
+        <svg class="modal-close-btn-icon" width="18" height="18">
+            <use href="/goit-g7-my-copy-team-project/assets/icons-3d060f7a.svg#icon-btn_svg"></use></svg>
+     </button>
+
+     <p class="room-modal-text" lang="uk">ЗАБРОНЮВАТИ НОМЕР</p>
+     
+		 <form class="table-modal-form">
+ 
+        <div class="room-block">
+        	<label class="modal-form-field">
+            <span class="modal-form-input-wrapper">
+        			<input type="text" name="user_name" placeholder="Ваше ім'я" class="table-modal-input" required pattern="^[a-zA-Za-яА-Я-іІїЇ]+$" minlength="2" />
+            	<span class="table-input-desc" lang="uk">На кого забронювати столик?</span>
+            </span>
+        	</label>
+
+        	<label class="modal-form-field">
+            <span class="modal-form-input-wrapper">
+            	<input type="tel" name="user_phone" placeholder="+38 (___) ___-__-__" class="table-modal-input" required pattern="^[+][0-9]{12}" title="Номер повинен бути в форматі '+380XXXXXXXXX'"  />
+        			<span class="table-input-desc" lang="uk">Номер телефону</span>
+            </span>
+         	</label>  
+        </div>
+
+        <div class="room-block">
+         	<label class="modal-form-field">
+            <span class="modal-form-input-wrapper">
+              <svg class="click-icon" width="19.95" height="11.48">
+                  <use href="/goit-g7-my-copy-team-project/assets/icons-3d060f7a.svg#icon-click"></use>
+							</svg>
+          		<select id="room-form-persons" name="persons" class="room-category" >
+              	<option value="1" lang="uk">Двомісний номер</option>
+              	<option value="2" lang="uk" selected>Двомісний люкс</option>
+              	<option value="3">Трьомісний номер</option>
+            	</select>   
+            	<span class="table-input-desc" lang="uk">Категорія номеру</span>
+          	</span> 
+        	</label>	
+				</div>
+
+				<!-- book-nomer-from -->
+        <div class="room-block">   
+        	<label class="modal-form-field">
+            <span class="modal-form-input-wrapper">
+                <!-- <svg class="click-icon" width="19.95" height="11.48">
+                    <use href="./images/icons.svg#icon-click"></use>
+								</svg>
+					<select name="day" class="table-modal-select" > 
+						<option value="today" lang="uk">Оберіть день</option>
+						<option value="today" lang="uk">Сьогодні</option>
+						<option value="tomorrow" lang="uk">Завтра</option> 
+						<option value="second_tomorrow">Післязавтра</option>
+					</select>    -->
+							<input 
+									class="table-modal-input" 
+									type="text" 
+									id="date-book-nomer-from" 
+									placeholder="Виберіть дату">
+
+        			<span class="table-input-desc" lang="uk">Дата заїзду</span>
+            </span>
+        	</label>
+        
+					<!-- book-nomer-to -->
+        	<label class="modal-form-field">
+            <span class="modal-form-input-wrapper">
+                <!-- <svg class="click-icon" width="19.95" height="11.48">
+                    <use href="./images/icons.svg#icon-click"></use>
+								</svg>
+					<select name="day" class="table-modal-select" > 
+						<option value="today" lang="uk">Оберіть день</option>
+						<option value="today" lang="uk">Сьогодні</option>
+						<option value="tomorrow" lang="uk">Завтра</option> 
+						<option value="second_tomorrow">Післязавтра</option>
+					</select>  -->
+								<input 
+										class="table-modal-input" 
+										type="text" 
+										id="date-book-nomer-to" 
+										placeholder="Виберіть дату">
+
+        			<span class="table-input-desc" lang="uk">Дата виїзду</span>
+            </span>
+       	 	</label>
+    		</div> 
+        <button type="submit" class="button-big-pointed" lang="uk">ОФОРМИТИ БРОНЮВАННЯ</button>
+     </form>
+    </div>
+  </div>
+
+  <!-- Підложка під модальним вікном -->
+  <div class="overlay js-overlay-modal"></div>
+
+</div>
+
+      <div class="container">
+
+</div>
+
+
+      <!-- <div class="overlay js-overlay-modal"></div> -->
+<div class="container">
+
+  <div class="modal" data-modal="3">
+    <button type="button" class="modal-rp-close js-modal-close">
+      <svg class="modal-rc-close-btn" width="18" height="18">
+        <use href="/goit-g7-my-copy-team-project/assets/icons-3d060f7a.svg#icon-btn_svg"></use>
+      </svg>
+    </button>
+    <p class="modal-rb-header">ЦІНИ НА НОМЕР</p>
+    <p class="modal-rp-text">Двомісний люкс</p>
+     <form>
+      <label class="modal-rb-label">Категорія номеру</label>
+      <div class="modal-rb-flex">
+        <div>
+          <input required type="number" name="argument" id="inpt1" class="modal-rb-imput" placeholder="0" min="1" max="10">
+          <label class="modal-rb-label">Кількість ночей</label>
+        </div>
+        <div>
+          <input disabled type="number" id="res1" name="result" class="modal-rb-imput" placeholder="0">
+          <label class="modal-rb-label">грн</label>
+        </div>
+      </div>
+      <button type="submit" class="button-big-pointed" lang="uk">ЗАБРОНЮВАТИ НОМЕР</button>
+    </form>  
+  </div>
+
+</div>
+<script>
+    const input = document.getElementById("inpt1");
+    const inputResult = document.getElementById("res1");
+
+    input.addEventListener("keyup", function () {
+        inputResult.value = +input.value * 1000;
+    })
+</script>
+      
+<!-- <div class="overlay js-overlay-modal"></div> -->
+<div class="container">
+<div class="modal" data-modal="4">
+    <button type="button" class="modal-rp-close js-modal-close">
+        <svg class="modal-rc-close-btn" width="18" height="18">
+            <use href="/goit-g7-my-copy-team-project/assets/icons-3d060f7a.svg#icon-btn_svg"></use>
+        </svg>
+    </button>
+    <p class="modal-rb-header">ЦІНИ НА НОМЕР</p>
+    <p class="modal-rp-text">Трьохмісний номер</p>
+    <form>
+        <label class="modal-rb-label">Категорія номеру</label>
+        <div class="modal-rb-flex">
+            <div>
+                <input required type="number" name="argument" id="inpt2" class="modal-rb-imput" placeholder="0" min="1" max="10">
+                <label class="modal-rb-label">Кількість ночей</label>
+            </div>
+            <div>
+                <input disabled type="number" id="res2" name="result" class="modal-rb-imput" placeholder="0">
+                <label class="modal-rb-label">грн</label>
+            </div>
+        </div>
+        <button type="submit" class="button-big-pointed" lang="uk">ЗАБРОНЮВАТИ НОМЕР</button>
+    </form>
+</div>
+</div>
+
+<script>
+    const input2 = document.getElementById("inpt2");
+    const inputResult2 = document.getElementById("res2");
+
+    input2.addEventListener("keyup", function () {
+        inputResult2.value = +input2.value * 1200;
+    })
+</script>
+
+
+    
+    
+  <!-- jquery + bootstrap for calendar   -->
+  <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+  
+  <!-- sript modal -->
+  
+  
+  
+  
+  <!--js-scrupt-->
+    
+
+  <!-- another slider -->
+    
+    
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  </body>
+</html>
