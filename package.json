@@ -1,11 +1,11 @@
 {
-  "name": "goit-team-prog-g7",
+  "name": "goit-g7-my-copy-team-project",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/goit-team-prog-g7/",
+    "build": "vite build --base=/goit-g7-my-copy-team-project/",
     "preview": "vite preview"
   },
   "devDependencies": {
